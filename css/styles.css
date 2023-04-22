@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: green;
+}
+
+p {
+  color: red;
+  font-size: 20px;
+}
+
+.rule {
+  list-style: upper-roman;
+  color: navy;
+}
+
+.common-rule {
+  list-style: upper-roman;
+  font-size: 20px;
+}
+
+.first-rule {
+  color: red;
+}
+
+.last-rule {
+  color: green;
+}
+
+.btn {
+  border: none;
+  padding: 0.25rem 1.25rem;
+}
+
+.link {
+  text-decoration: none;
+  color: navy;
+}
+/* Напиши свой код под этой строкой */
+.btn.active {
+  color: red;
+}
+
+.link.active {
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+  color: navy;
+  opacity: 0.5;
+}
+/* Напиши свой код под этой строкой */
+.link:hover,
+.link:focus {
+  opacity: 1;
+}
+
+[type] {
+  color: white;
+}
+
+button[type='reset'] {
+  color: green;
+}
+
+[href^='./'] {
+  color: red;
+}
+
+[href^='https'] {
+  color: navy;
+}
+
+[href$='html'] {
+  color: green;
+}
+
+[href$='css'] {
+  color: orangered;
+}
+
+[href*='about'] {
+  color: green;
+}
+
+[href*='com'] {
+  color: orangered;
+}
+
+.warning {
+  background-color: white;
+  color: red;
+}
+
+#sending {
+  background-color: teal;
+  color: white;
+}
+
+.cards {
+  color: navy;
+}
+
+.last-of-type {
+  color: firebrick;
+}
+
+.list-link {
+  color: green;
+  background-color: #fff;
+}
+
+.lightness {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0.5rem;
+  text-align: center;
+  border: 1px solid gold;
+}
+.lightness-100 {
+  background-color: hsl(0, 100%, 100%);
+}
+.lightness-75 {
+  background-color: hsl(0, 100%, 75%);
+}
+.lightness-50 {
+  background-color: hsl(0, 100%, 50%);
+}
+.lightness-25 {
+  background-color: hsl(0, 100%, 25%);
+  color: hsl(0, 100%, 100%);
+}
+.lightness-0 {
+  background-color: hsl(0, 100%, 0%);
+  color: hsl(0, 100%, 100%);
+}
+
+p {
+  text-indent: 40px;
+}
+
+.columns {
+  text-indent: 40px;
+  column-count: 2;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.box,
+.card {
+  display: inline-block;
+  background-color: blueviolet;
+  vertical-align: middle;
+}
+
+[data-transform='none'] {
+  text-transform: uppercase;
+}
+
+[data-transform='uppercase'] {
+  text-transform: uppercase;
+}
+
+[data-transform='lowercase'] {
+  text-transform: lowercase;
+}
+
+[data-transform='capitalize'] {
+  text-transform: capitalize;
+}
+
+.up {
+  text-decoration: overline;
+  text-shadow: 3px, 3px, 2px, hsla(0, 0%, 0%, 0.5);
+  color: yellow;
+}
