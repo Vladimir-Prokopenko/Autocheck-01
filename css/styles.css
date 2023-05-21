@@ -4,7 +4,7 @@
 }
 
 li {
-  :none ;
+  : none;
   color: green;
 }
 
@@ -14,12 +14,12 @@ p {
 }
 
 .rule {
-  :upper-roman ;
+  : upper-roman;
   color: navy;
 }
 
 .common-rule {
-  :upper-roman ;
+  : upper-roman;
   font-size: 20px;
 }
 
@@ -40,6 +40,7 @@ p {
   text-decoration: none;
   color: navy;
 }
+
 /* Напиши свой код под этой строкой */
 .btn.active {
   color: red;
@@ -54,6 +55,7 @@ p {
   color: navy;
   opacity: 0.5;
 }
+
 /* Напиши свой код под этой строкой */
 .link:hover,
 .link:focus {
@@ -123,19 +125,24 @@ button[type='reset'] {
   text-align: center;
   border: 1px solid gold;
 }
+
 .lightness-100 {
   background-color: hsl(0, 100%, 100%);
 }
+
 .lightness-75 {
   background-color: hsl(0, 100%, 75%);
 }
+
 .lightness-50 {
   background-color: hsl(0, 100%, 50%);
 }
+
 .lightness-25 {
   background-color: hsl(0, 100%, 25%);
   color: hsl(0, 100%, 100%);
 }
+
 .lightness-0 {
   background-color: hsl(0, 100%, 0%);
   color: hsl(0, 100%, 100%);
@@ -201,5 +208,9 @@ p {
 }
 
 .test {
-  margin-bottom: 1rem;
+  -webkit-background-clip: text;
+}
+
+.images {
+  box-shadow: 1px 1px 1px 1px hsla(0, 0%, 0%, .3);
 }
