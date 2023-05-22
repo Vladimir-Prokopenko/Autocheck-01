@@ -9,160 +9,211 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <ol>
-      <li>
-        <h1>The main theme of the web page in the h1 header.</h1>
-      </li>
-      <li>
-        <!-- The commentary answers the question "Why is this part of the code written". -->
-      </li>
-      <li>
-        <img src="/photo.jpg" alt="Image example" width="200" height="150" />
-      </li>
-      <li>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-      </li>
-      <li>
-        <div class="buttons">
-          <button type="button" class="button">inline</button>
-          <button type="button" class="button">block</button>
-          <button type="button" class="button">inline-block</button>
-        </div>
-        <div class="buttons">
-          <button type="button" class="button">HTML</button>
-          <button type="button" class="button">CSS</button>
-          <button type="button" class="button">JavaScript</button>
-        </div>
-      </li>
-      <li>
-        <div class="box">
-          <a href="#" class="link-inline">ы<span>Text</span></a>
-          without line break
-        </div>
-        <div class="box">
-          <a href="#" class="link-block"><p>Text</p></a>
-          with line break
-        </div>
-      </li>
-      <li>
-        <div class="card">
-          <h4 class="card-title">
-            The order in which files are loaded by the browser
-          </h4>
-          <ol class="card-items">
-            <li class="card-item">HTML file</li>
-            <li class="card-item">Link to files inside head</li>
-            <li class="card-item">Link to files inside body</li>
-          </ol>
-        </div>
-      </li>
-      <li>
-        <ul class="cards">
-          <li class="card">
-            <h4 class="card-title">Card title 1</h4>
-            <div class="wrp-img">
-              <img
-                class="card-image"
-                src="https://ac.goit.global/img/photo1.jpg"
-                alt="image description"
-              />
-            </div>
-            <p class="card-description">Description of the topic 1</p>
-          </li>
-          <li class="card">
-            <h4 class="card-title">Card title 2</h4>
-            <div class="wrp-img">
-              <img
-                class="card-image"
-                src="https://ac.goit.global/img/photo2.jpg"
-                alt="image description"
-              />
-            </div>
-            <p class="card-description">Description of the topic 2</p>
-          </li>
-          <li class="card">
-            <h4 class="card-title">Card title 3</h4>
-            <div class="wrp-img">
-              <img
-                class="card-image"
-                src="https://ac.goit.global/img/photo3.jpg"
-                alt="image description"
-              />
-            </div>
-            <p class="card-description">Description of the topic 3</p>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a
-          href="https://goit.global"
-          target="_blank"
-          rel="noopener nofollow noreferrer"
-        >
-          GoIT
-        </a>
-      </li>
-      <li>
-        <a href="resume.pdf" download="">Resume</a>
-      </li>
-      <li>
-        <!-- Link to phone number  -->
-        <a href="tel:+14251234563">+1 (425) 123-45-63</a>
-        <!-- Link to e-mail address -->
-        <a href="mailto:example@gmail.com">example@gmail.com</a>
-      </li>
-      <li>
-        <header id="top">
-          <!-- content from logo, nav, search  -->
-        </header>
-        <main>
-          <aside>
-            <ul>
-              <li><a href="#top">Top of the page</a></li>
-              <li><a href="#page-theme">Main theme</a></li>
-              <li><a href="#bottom">Footer of the page</a></li>
-            </ul>
-          </aside>
-          <article id="page-theme">
-            <!-- main page theme -->
-          </article>
-        </main>
-        <footer id="bottom">
-          <!-- content from logo, nav, contacts, copyright  -->
-        </footer>
-      </li>
-      <li>
-        <figure>
-          <img
-            src="https://ac.goit.global/img/photo1.jpg"
-            alt="photo description"
-          />
-          <figcaption>
-            Only one img element and any number of text or other elements can be
-            used inside link. You cannot use interactive elements inside link
-            tag.
-          </figcaption>
-        </figure>
-      </li>
-      <li>
-        <a class="link" target="_blank" href="https://goit.global"
-          ><img
-            src="https://ac.goit.global/img/photo1.jpg"
-            alt="note in laptop"
-          />
-        </a>
-        <a class="link" target="_blank" href="https://goit.global"
-          ><img
-            src="https://ac.goit.global/img/photo2.jpg"
-            alt="note on paper"
-          />
-        </a>
-      </li>
-      <li></li>
-    </ol>
+    <div class="container">
+      <ol>
+        <li>
+          <h1>The main theme of the web page in the h1 header.</h1>
+        </li>
+        <li>
+          <!-- The commentary answers the question "Why is this part of the code written". -->
+        </li>
+        <li>
+          <img src="/photo.jpg" alt="Image example" width="200" height="150" />
+        </li>
+        <li>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </li>
+        <li>
+          <div class="buttons">
+            <button type="button" class="button">inline</button>
+            <button type="button" class="button">block</button>
+            <button type="button" class="button">inline-block</button>
+          </div>
+          <div class="buttons">
+            <button type="button" class="button">HTML</button>
+            <button type="button" class="button">CSS</button>
+            <button type="button" class="button">JavaScript</button>
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <a href="#" class="link-inline">ы<span>Text</span></a>
+            without line break
+          </div>
+          <div class="box">
+            <a href="#" class="link-block"><p>Text</p></a>
+            with line break
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <h4 class="card-title">
+              The order in which files are loaded by the browser
+            </h4>
+            <ol class="card-items">
+              <li class="card-item">HTML file</li>
+              <li class="card-item">Link to files inside head</li>
+              <li class="card-item">Link to files inside body</li>
+            </ol>
+          </div>
+        </li>
+        <li>
+          <ul class="cards">
+            <li class="card">
+              <h4 class="card-title">Card title 1</h4>
+              <div class="wrp-img">
+                <img
+                  class="card-image"
+                  src="https://ac.goit.global/img/photo1.jpg"
+                  alt="image description"
+                />
+              </div>
+              <p class="card-description">Description of the topic 1</p>
+            </li>
+            <li class="card">
+              <h4 class="card-title">Card title 2</h4>
+              <div class="wrp-img">
+                <img
+                  class="card-image"
+                  src="https://ac.goit.global/img/photo2.jpg"
+                  alt="image description"
+                />
+              </div>
+              <p class="card-description">Description of the topic 2</p>
+            </li>
+            <li class="card">
+              <h4 class="card-title">Card title 3</h4>
+              <div class="wrp-img">
+                <img
+                  class="card-image"
+                  src="https://ac.goit.global/img/photo3.jpg"
+                  alt="image description"
+                />
+              </div>
+              <p class="card-description">Description of the topic 3</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="https://goit.global"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+          >
+            GoIT
+          </a>
+        </li>
+        <li>
+          <a href="resume.pdf" download="">Resume</a>
+        </li>
+        <li>
+          <!-- Link to phone number  -->
+          <a href="tel:+14251234563">+1 (425) 123-45-63</a>
+          <!-- Link to e-mail address -->
+          <a href="mailto:example@gmail.com">example@gmail.com</a>
+        </li>
+        <li>
+          <header id="top">
+            <!-- content from logo, nav, search  -->
+          </header>
+          <main>
+            <aside>
+              <ul>
+                <li><a href="#top">Top of the page</a></li>
+                <li><a href="#page-theme">Main theme</a></li>
+                <li><a href="#bottom">Footer of the page</a></li>
+              </ul>
+            </aside>
+            <article id="page-theme">
+              <!-- main page theme -->
+            </article>
+          </main>
+          <footer id="bottom">
+            <!-- content from logo, nav, contacts, copyright  -->
+          </footer>
+        </li>
+        <li>
+          <figure>
+            <img
+              src="https://ac.goit.global/img/photo1.jpg"
+              alt="photo description"
+            />
+            <figcaption>
+              Only one img element and any number of text or other elements can
+              be used inside link. You cannot use interactive elements inside
+              link tag.
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <a class="link" target="_blank" href="https://goit.global"
+            ><img
+              src="https://ac.goit.global/img/photo1.jpg"
+              alt="note in laptop"
+            />
+          </a>
+          <a class="link" target="_blank" href="https://goit.global"
+            ><img
+              src="https://ac.goit.global/img/photo2.jpg"
+              alt="note on paper"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/envelope.svg" alt="envelope" />
+            Почта</a
+          >
+        </li>
+      </ol>
+    </div>
+
+    <div>
+      <audio controls preload="none">
+        <source
+          src="https://goit.ua/autocheck/bensound-summer.mp3"
+          type="audio/mp3"
+        />
+      </audio>
+    </div>
+    <table>
+      <caption>
+        What is the difference between block, inline and inline-block
+      </caption>
+      <thead>
+        <tr>
+          <th>/</th>
+          <th>block</th>
+          <th>inline</th>
+          <th>inline-block</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>height determined</th>
+          <td colspan="3">by height of content</td>
+        </tr>
+        <tr>
+          <th>width determined</th>
+          <td>by width of parent element</td>
+          <td colspan="2">by width of content</td>
+        </tr>
+        <tr>
+          <th>Is it possible to set height and width</th>
+          <td>yes</td>
+          <td>no</td>
+          <td>yes</td>
+        </tr>
+        <tr>
+          <th>How line wrapping works</th>
+          <td>always on a new line</td>
+          <td colspan="2">only when filling the width of the parent element</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

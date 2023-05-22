@@ -13,6 +13,14 @@ p {
   font-size: 20px;
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .rule {
   : upper-roman;
   color: navy;
@@ -208,9 +216,37 @@ p {
 }
 
 .test {
-  -webkit-background-clip: text;
+  fill: currentColor;
 }
 
 .images {
   box-shadow: 1px 1px 1px 1px hsla(0, 0%, 0%, .3);
+}
+
+table {
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+  margin: 3rem;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+thead {
+  background-color: #555;
+  color: #fff;
+}
+
+td,
+th {
+  padding: 0.5rem 1rem;
+  border: 1px solid #888;
+  text-align: center;
+}
+
+td[colspan] {
+  background-color: #eee;
 }
