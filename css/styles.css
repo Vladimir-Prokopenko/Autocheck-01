@@ -39,7 +39,7 @@ p {
   color: green;
 }
 
-.btn {
+.link-btn {
   border: none;
   padding: 0.25rem 1.25rem;
 }
@@ -50,7 +50,7 @@ p {
 }
 
 /* Напиши свой код под этой строкой */
-.btn.active {
+.link-btn.active {
   color: red;
 }
 
@@ -216,7 +216,11 @@ p {
 }
 
 .test {
-  fill: currentColor;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .images {
