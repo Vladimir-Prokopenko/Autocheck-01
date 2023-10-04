@@ -13,22 +13,16 @@ p {
   font-size: 20px;
 }
 
+button {
+  line-height: 0;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.rule {
-  : upper-roman;
-  color: navy;
-}
-
-.common-rule {
-  : upper-roman;
-  font-size: 20px;
 }
 
 .first-rule {
@@ -254,3 +248,5 @@ th {
 td[colspan] {
   background-color: #eee;
 }
+
+/* 192.168.0.10:5500 */
